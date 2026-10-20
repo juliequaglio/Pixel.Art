@@ -18,7 +18,7 @@ class App:
         self.font = pygame.font.SysFont("Arial", 16)
 
     def run(self):
-        """Loopprincipal da aplicação."""
+        """Loop principal da aplicação."""
         while self.running:
             self.handle_events()
             self.draw()
@@ -57,7 +57,7 @@ class App:
         self.palette.draw(self.screen)
 
         # Instruções na tela
-        instructions = "Botão Esquerdo: Pintar | Tecla C: Limpar Canvas"
+        instructions = "Botão Esquerdo: Pintar | Tecla C: Limpar Canvas | Construção da janela em andamento!"
         text_surface = self.font.render(instructions, True, DARK_GRAY)
         self.screen.blit(text_surface, (20, 520))
 

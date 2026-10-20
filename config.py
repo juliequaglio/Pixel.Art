@@ -15,16 +15,16 @@ DARK_GRAY = (50, 50, 50)
 LIGHT_GRAY = (230, 230, 230)
 
 #Lista de cores disponiveis na paleta
-PALETTE_CLOUS = [
-    (0, 0, 0),      #preto
-    (255, 255, 255) #branco
-    (255, 0, 0)     #vermelho
-    (0, 255, 0)     #verde
-    (0, 0, 255)     #azul
-    (255, 255, 0)   #amarelo
-    (255, 128, 0)   #laranja
-    (128, 0, 128)   #roxo
-    (255, 192, 203) #rosa
-    (139, 69, 19)   #marrom
+PALETTE_COLORS = [
+    (0, 0, 0),     #preto
+    (255, 255, 255), #branco
+    (255, 0, 0),     #vermelho
+    (0, 255, 0),    #verde
+    (0, 0, 255),     #azul
+    (255, 255, 0),   #amarelo
+    (255, 128, 0),   #laranja
+    (128, 0, 128),   #roxo
+    (255, 192, 203), #rosa
+    (139, 69, 19),   #marrom
     
 ]
